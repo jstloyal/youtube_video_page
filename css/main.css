@@ -41,3 +41,18 @@ main {
   margin-top: 70px;
   margin-left: 30px;
 }
+
+.row {
+  display: flex;
+}
+
+.likes img {
+  width: 40px;
+  height: auto;
+}
+
+.share {
+  background-color: teal;
+  font-weight: bolder;
+  color: aliceblue;
+}
