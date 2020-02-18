@@ -44,6 +44,16 @@ main {
 
 .row {
   display: flex;
+  justify-content: space-between;
+}
+
+.video {
+  width: 50vw;
+}
+
+.video iframe {
+  width: inherit;
+  height: 400px;
 }
 
 .likes img {
