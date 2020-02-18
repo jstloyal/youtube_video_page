@@ -3,10 +3,16 @@ nav {
   align-items: center;
 }
 .image-logo {
+  width: 50px;
+  
 }
 
 .input-bar {
 }
 
 .image-group {
+}
+
+#search-bar {
+  align-items: center;
 }
