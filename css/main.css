@@ -38,8 +38,8 @@
 }
 
 main {
-  margin-top: 70px;
-  margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .row {
@@ -67,8 +67,18 @@ main {
   color: aliceblue;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li img {
+  width: 200px;
+}
+
+li div {
+  width: 50%;
+}
+
 .sidenav {
   text-align: right;
-  padding-left: 80%;
-  
 }
