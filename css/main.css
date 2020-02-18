@@ -36,3 +36,8 @@
   border: none;
   height: inherit;
 }
+
+main {
+  margin-top: 70px;
+  margin-left: 30px;
+}
