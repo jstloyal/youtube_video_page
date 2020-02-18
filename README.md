@@ -38,9 +38,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@jstloyal](https://github.com/jstloyal)
+- Twitter: [@jstloyalty](https://twitter.com/jstloyalty)
+- Linkedin: [jstloyalty](https://linkedin.com/jstloyalty)
 
 👤 **Author2**
 
