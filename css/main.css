@@ -1,6 +1,6 @@
 nav {
-  display: flex;
-  align-items: center;
+  display: block;
+  justify-content:  center;
 }
 .image-logo > img {
   width: 100px;
@@ -9,15 +9,15 @@ nav {
 .input-bar img {
   width: 50px;
 }
-
+#search-bar {
+  justify-content: center;
+  width: 100px;
+}
 .image-group {
   display: flex;
+  /*align: flex-end;*/
 }
 
 .image-group img {
   width: 50px;
-}
-
-#search-bar {
-  align-items: center;
 }
