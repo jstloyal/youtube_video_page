@@ -1,23 +1,31 @@
-nav {
-  display: block;
-  justify-content:  center;
-}
-.image-logo > img {
-  width: 100px;
+.nav {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
 }
 
-.input-bar img {
-  width: 50px;
-}
-#search-bar {
-  justify-content: center;
-  width: 100px;
-}
 .image-group {
   display: flex;
-  /*align: flex-end;*/
+  flex: 1;
+  align-items: right;
+  width: 100px;
+  height: 100px;
 }
 
-.image-group img {
-  width: 50px;
+.search-bar {
+  flex: 2;
+  align-items: center;
+}
+
+.search-bar input[type=text] {
+  float: center;
+  font-size: xx-large;
+}
+
+.search-bar input[type=submit] {
+  width: 80px;
+  height: 50px;
 }
