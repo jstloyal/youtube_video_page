@@ -66,3 +66,9 @@ main {
   font-weight: bolder;
   color: aliceblue;
 }
+
+.sidenav {
+  text-align: right;
+  padding-left: 80%;
+  
+}
