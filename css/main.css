@@ -2,15 +2,20 @@ nav {
   display: flex;
   align-items: center;
 }
-.image-logo {
-  width: 50px;
-  
+.image-logo > img {
+  width: 100px;
 }
 
-.input-bar {
+.input-bar img {
+  width: 50px;
 }
 
 .image-group {
+  display: flex;
+}
+
+.image-group img {
+  width: 50px;
 }
 
 #search-bar {
