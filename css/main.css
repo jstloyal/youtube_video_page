@@ -1,4 +1,8 @@
-* { margin:0; padding:0; box-sizing:border-box; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .nav {
   width: 100vw;
   display: flex;
@@ -7,8 +11,8 @@
   justify-content: space-between;
   background-color: #fffafa;
   height: 50px;
-  border-bottom: silver;
-  border-style: solid;
+
+  border-bottom: black solid 2px;
 }
 
 .image-logo {
@@ -34,7 +38,7 @@
 .search-bar-input {
   font-size: 1em;
   background-color: #fffafa;
-  
+  width: 800px;
 }
 
 .search-bar form input[type='submit'] {
