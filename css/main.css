@@ -87,6 +87,14 @@ main {
   font-weight: bolder;
   color: aliceblue;
 }
+ a {
+   text-decoration: none;
+   color: black;
+ }
+
+ .avatar img {
+   width: 40px;
+ }
 
 ul {
   list-style-type: none;
