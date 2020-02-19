@@ -91,6 +91,13 @@ main {
   width: 20px;
 }
 
+.subscribe button{
+  background-color: red;
+  font-size: 16px;
+  border: none;
+  padding: 15px 32px;
+}
+
 .share {
   background-color: teal;
   font-weight: bolder;
