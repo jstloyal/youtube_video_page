@@ -52,11 +52,14 @@
 main {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
+  margin-top: 10px;
 }
 
 .video {
@@ -67,10 +70,16 @@ main {
   width: inherit;
   height: 400px;
 }
+.impressions {
+  align: left;
+}
+
+.likes {
+  width: 10px;
+}
 
 .likes img {
-  width: 40px;
-  height: auto;
+  width: 20px;
 }
 
 .share {
