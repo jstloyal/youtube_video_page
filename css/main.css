@@ -62,6 +62,15 @@ main {
   margin-top: 10px;
 }
 
+.row-left-align {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.left-row img {
+  width: 200px;
+}
 .video {
   width: 50vw;
 }
@@ -87,14 +96,14 @@ main {
   font-weight: bolder;
   color: aliceblue;
 }
- a {
-   text-decoration: none;
-   color: black;
- }
+a {
+  text-decoration: none;
+  color: black;
+}
 
- .avatar img {
-   width: 40px;
- }
+.avatar img {
+  width: 40px;
+}
 
 ul {
   list-style-type: none;
