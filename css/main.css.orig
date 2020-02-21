@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fffafa;
+  height: 50px;
+
+  border-bottom: black solid 2px;
+}
+
+.image-logo {
+  align: left;
+}
+
+.image-logo img {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.img-gp-size {
+  height: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+}
+
+.search-bar-input {
+  font-size: 1em;
+  background-color: #fffafa;
+  width: 800px;
+}
+
+.search-bar form input[type='submit'] {
+  background-color: aqua;
+  width: 20em;
+  height: 2em;
+  border: none;
+  height: inherit;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.row-left-align {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.left-row img {
+  width: 200px;
+}
+.video {
+  /*width: 50vw;*/
+  width: 1000px;
+  height: 2000px;
+}
+
+.video iframe {
+  width: inherit;
+  height: 400px;
+}
+.impressions {
+  align: left;
+}
+
+.likes {
+  width: 10px;
+}
+
+.likes img {
+  width: 20px;
+}
+
+.subscribe button{
+  background-color: red;
+  font-size: 16px;
+  border: none;
+  padding: 15px 32px;
+}
+
+.share {
+  background-color: teal;
+  font-weight: bolder;
+  color: aliceblue;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.avatar img {
+  width: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li img {
+  width: 200px;
+}
+
+li div {
+  width: 50%;
+}
+
+.sidenav {
+  text-align: right;
+}
