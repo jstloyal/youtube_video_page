@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .nav {
   width: 100vw;
   display: flex;
@@ -11,8 +12,11 @@
   justify-content: space-between;
   background-color: #fffafa;
   height: 50px;
-
   border-bottom: black solid 2px;
+}
+
+li img {
+  width: 200px;
 }
 
 .image-logo {
@@ -71,8 +75,8 @@ main {
 .left-row img {
   width: 200px;
 }
+
 .video {
-  /*width: 50vw;*/
   width: 1000px;
   height: 2000px;
 }
@@ -81,6 +85,7 @@ main {
   width: inherit;
   height: 400px;
 }
+
 .impressions {
   align: left;
 }
@@ -93,7 +98,7 @@ main {
   width: 20px;
 }
 
-.subscribe button{
+.subscribe button {
   background-color: red;
   font-size: 16px;
   border: none;
@@ -105,6 +110,7 @@ main {
   font-weight: bolder;
   color: aliceblue;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -116,10 +122,6 @@ a {
 
 ul {
   list-style-type: none;
-}
-
-li img {
-  width: 200px;
 }
 
 li div {
