@@ -48,7 +48,6 @@ li img {
 .search-bar form input[type='submit'] {
   background-color: aqua;
   width: 20em;
-  height: 2em;
   border: none;
   height: inherit;
 }
