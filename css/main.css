@@ -20,7 +20,7 @@ li img {
 }
 
 .image-logo {
-  align: left;
+  padding-left: 10px;
 }
 
 .image-logo img {
@@ -29,7 +29,7 @@ li img {
 }
 
 .img-gp-size {
-  height: 20px;
+  width: 30px;
 }
 
 .search-bar {
