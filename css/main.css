@@ -40,7 +40,7 @@ li img {
 }
 
 .search-bar-input {
-  font-size: 1em;
+  height: 40px;
   background-color: #fffafa;
   width: 800px;
 }
