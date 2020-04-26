@@ -75,9 +75,27 @@ main {
   margin-top: 10px;
 }
 
-.left-row img {
-  width: 200px;
+.left-col  {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
 }
+
+.left-col  .img {
+  border-radius: 40px;
+  background-color: #ccc;
+}
+
+.left-col .img img {
+  width: 50px;
+  margin: auto;
+}
+
+.left-col .img-desc .text {
+  font-weight: bold;
+}
+
 
 .video {
   width: 1000px;
