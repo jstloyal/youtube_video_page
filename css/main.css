@@ -3,20 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .nav {
-  width: 100vw;
+  width: 99vw;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   background-color: #fffafa;
   height: 50px;
+  margin-bottom: 50px;
+}
 
-  border-bottom: black solid 2px;
+li img {
+  width: 200px;
+}
+
+.pad-top {
+  padding-top: 20px;
 }
 
 .image-logo {
-  align: left;
+  padding-left: 10px;
 }
 
 .image-logo img {
@@ -25,7 +33,15 @@
 }
 
 .img-gp-size {
-  height: 20px;
+  width: 30px;
+}
+
+.avatar {
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 50% 50% 50% 50%;
+  background-color: #ccc;
+  color: white;
 }
 
 .search-bar {
@@ -36,22 +52,33 @@
 }
 
 .search-bar-input {
-  font-size: 1em;
+  height: 40px;
+  padding: 10px;
   background-color: #fffafa;
   width: 800px;
 }
 
-.search-bar form input[type='submit'] {
-  background-color: aqua;
-  width: 20em;
-  height: 2em;
+.search-bar-btn {
+  margin-top: 30px;
+  background-color: #ccc;
+  padding: 0 30px;
   border: none;
-  height: inherit;
+}
+
+.search-bar-btn  .search-btn {
+  width: 60px;
+  height: 40px;
+  color: white;
+}
+
+.image-group figure {
+  display: inline;
 }
 
 main {
   display: flex;
   justify-content: space-between;
+  width: 99vw;
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -68,11 +95,33 @@ main {
   margin-top: 10px;
 }
 
-.left-row img {
-  width: 200px;
+.row-left-align .left-col img {
+  width: 320px;
 }
+
+.left-col  {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
+}
+
+.left-col  .img {
+  border-radius: 40px;
+  background-color: #ccc;
+}
+
+.left-col .img img {
+  width: 50px;
+  margin: auto;
+}
+
+.left-col .img-desc .text {
+  font-weight: bold;
+}
+
+
 .video {
-  /*width: 50vw;*/
   width: 1000px;
   height: 2000px;
 }
@@ -81,6 +130,7 @@ main {
   width: inherit;
   height: 400px;
 }
+
 .impressions {
   align: left;
 }
@@ -93,11 +143,14 @@ main {
   width: 20px;
 }
 
-.subscribe button{
+.subscribe button {
   background-color: red;
-  font-size: 16px;
+  font-size: 1em;
   border: none;
-  padding: 15px 32px;
+  color: white;
+  text-transform: uppercase;
+  padding: 7.5px 16px;
+  border-radius: 2px;
 }
 
 .share {
@@ -105,6 +158,7 @@ main {
   font-weight: bolder;
   color: aliceblue;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -116,10 +170,6 @@ a {
 
 ul {
   list-style-type: none;
-}
-
-li img {
-  width: 200px;
 }
 
 li div {
