@@ -19,6 +19,10 @@ li img {
   width: 200px;
 }
 
+.pad-top {
+  padding-top: 20px;
+}
+
 .image-logo {
   padding-left: 10px;
 }
@@ -99,9 +103,12 @@ main {
 
 .subscribe button {
   background-color: red;
-  font-size: 16px;
+  font-size: 1em;
   border: none;
-  padding: 15px 32px;
+  color: white;
+  text-transform: uppercase;
+  padding: 7.5px 16px;
+  border-radius: 2px;
 }
 
 .share {
